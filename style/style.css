@@ -1,0 +1,498 @@
+*{
+    
+        font-family: 'Epilogue', sans-serif;
+        font-family: 'Finger Paint', cursive;
+        font-family: 'Poppins', sans-serif;
+}
+h3,h4,h5,h6{
+    margin: 0;
+} 
+body{
+    margin-right: 4rem;
+    background-color: #edf0f2;
+}
+header{
+    width: 90%;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+}
+header .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header .content .text {
+    margin: 0 2rem;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    
+}
+header .content .text .content_but{
+    width: 2rem;
+}
+header .main_logo
+{
+    width: 12rem;
+}
+
+
+
+
+.main_sec{
+    width: 90%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.main_sec .left_content{
+    width: 25%;
+}
+.main_sec .center_contant{
+    position: relative;
+    background-image: url("../inest/Mask\ Group\ 3.png") ;
+    width: 70%;
+    margin: 0 2rem;
+}
+.main_sec .center_contant div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.main_sec .left_content .first{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 6rem;
+    
+    
+}
+.main_sec .left_content .first h1{
+    font-size: 13rem;
+    line-height: 10rem;
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    margin: 0;
+    color: #E4003B;
+
+    
+}
+.main_sec .left_content .first h3.horizontal {
+    writing-mode: vertical-rl;
+    font-weight: 300;
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 0.1rem;
+}
+
+.main_sec .left_content .scound{
+    position: relative;
+}
+.main_sec .left_content .scound .incon_under_text{
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    z-index: -1;
+}
+.main_sec .left_content .scound p{
+   
+    font-weight: 300;
+    width: 60%;
+    margin: 0;
+    margin-left: 20%;
+    letter-spacing: 0.1rem;
+}
+
+.main_sec .slider{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.main_sec .slider div{
+    position: relative;
+}
+
+
+.main_sec .slider div .slider_shape {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 1rem;
+    position: relative;
+    left: 2px;
+}
+.main_sec .slider div .slider_shape[target=_blank] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-weight: 500;
+    font-size: 4rem;
+    margin: 1rem;
+    position: relative;
+    left: 2px;
+}
+.slider_shape::before {
+    content: "";
+    background-color: #E4003B;
+    width: 100%;
+    height: 0.2rem;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    transform: scaleX(0);
+    transition: 0.5ms;
+}
+.main_sec .slider div .slider_shape[target=_blank]::before
+{
+    transform: scaleX(1.1) scaleY(1.1);
+}
+
+.challenges_sec{
+    width: 90%;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+}
+.challenges_sec .left{
+    width: 60%;
+}
+.challenges_sec .right{
+    width: 40%;
+    position: relative;
+
+}
+.challenges_sec .left h1{
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin-top: 0;
+}
+.challenges_sec .left .card{
+    display: flex;
+    margin: 2rem 0;
+}
+.challenges_sec .left .card img {
+    width: 60%;
+    height: fit-content;
+    margin-right: 2rem;
+}
+.challenges_sec .left .card .contant {
+    margin: 4rem 0;
+}
+.challenges_sec .left .card .contant h4 {
+    color:#E4003B;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-size: 1.4rem;
+
+}
+.challenges_sec .left .card .contant h3{
+    font-weight: 300;
+    font-size: 2.4rem;
+}
+.challenges_sec .left .card .contant b{
+    font-weight: 300;
+}
+.challenges_sec .left .card .contant .find{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+.challenges_sec .left .card .contant .find div {
+    margin-right: 1.5rem;
+
+
+}
+.challenges_sec .left .card .contant .find div svg{
+    width: 2rem;
+}
+
+.challenges_sec .left .card .contant .find h4{
+    color: black;
+    font-size: 1.3rem;
+    letter-spacing: 0;
+}
+
+.challenges_sec .right h1{
+    color: #E4003B;
+    font-size: 6rem;
+    margin: 0;
+    font-weight: 300;
+}
+.challenges_sec .right .back{
+    color:white;
+    line-height: 10rem;
+    font-size: 15rem;
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    z-index: -1;
+}
+.challenges_sec .right .challenges{
+    position: absolute;
+    letter-spacing: 0.1rem;
+    top: 5rem;
+    right: 7rem;
+    transform: rotate(-20deg);
+    z-index: -1;
+    font-weight: 500;
+
+}
+
+.challenges_sec .right img
+{
+    z-index: 5;
+    position: relative;
+    top: -2.6rem;
+
+
+}
+.challenges_sec .right .data{
+    position: relative;
+    bottom: 10rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.challenges_sec .right .data .mis{
+    color: black;
+    font-size: 3rem;
+}
+.challenges_sec .right .data .first{
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+.challenges_sec .right .data b{
+    font-weight: 300;
+    margin-top: 0rem;
+}
+.challenges_sec .right .data .ggg{
+    margin: 2rem 0;
+}
+.challenges_sec .right .data .find{
+    display: flex;
+    align-items: center;
+
+}
+.challenges_sec .right .data .find h4{
+    margin: 0 2rem;
+}
+
+
+
+.compleat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+}
+.compleat .back{
+    position: absolute;
+    top:10rem;
+    right: 40rem;
+    transform: rotate(-90deg);
+    font-size: 10rem;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.2rem;
+}
+.compleat .right {
+    background-image: url("../inest/Mask\ Group\ 2.png");
+    width: 1053px;
+    height: 1020px;
+    
+}
+.compleat .right .contant {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin: 10% auto;    
+    padding: 0 2rem;
+    padding-top: 9rem;
+    border: #E4003B;
+    border-width: 2rem;
+    border-style: solid;
+}
+.compleat .right .contant  h2{
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 500;
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 4rem;
+
+}
+.compleat .right .contant h4{
+    color: white;
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+.compleat .right .contant div {
+    display: flex;
+    margin:3rem 0;
+    align-items: center;
+    color: white;
+    font-size: 1.4rem;
+}
+.compleat .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.compleat .left h4{
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.compleat .left h5 {
+    color: #E4003B;
+    font-size: 15rem;
+    margin: 0;
+    font-weight:500;
+    text-align: center;
+
+}
+.compleat .left h2{
+    margin: 0;
+    font-size: 4rem;
+}
+.compleat .left span{
+    color: #E4003B;
+    font-weight: 900;
+}
+.compleat .left div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.compleat .left div h6{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* --------------------------------------------------------------- */
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+.gallery .back
+{
+    position: absolute;
+    color: #E4003B;
+    font-size: 3rem;
+    font-weight: 500;
+    right: -4rem;
+    top: 5rem;
+    transform: rotate(-25deg);
+}
+.gallery .left {
+    display: flex;
+    flex-direction: row;
+}
+.gallery .left .card{
+    width: 500px ;
+    height: 500px;
+    margin-right: 4rem;
+}
+.gallery .left .card1{
+    background-image: url("../inest/1gall.png");
+}
+.gallery .left .card2 {
+    background-image: url("../inest/2gall.png");
+}
+.gallery .left .card img{
+    margin: 2rem;
+}
+.gallery .left .card .content{
+    color: white;
+    margin:  15rem 2rem 0rem 2rem;
+}
+.gallery .left .card .content b{
+    font-size: 2rem;
+}
+
+.gallery .right{
+    margin-top: 4rem;
+}
+.gallery .right h1{
+    font-size: 6rem;
+    font-weight: 500;
+    margin: 0;
+}
+.gallery .right b {
+    font-weight: 300;
+}
+.gallery .right div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.gallery .right div h6 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+
+.foter {
+    background-image: url("../inest/Mask\ Group\ 5.png");
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+.foter .lest{
+    align-items:flex-end;
+    margin: 0 3rem;
+}
+
+.foter .lest h2{
+    color: #E4003B;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin: 0;
+}
+.foter .lest ul{
+    color: white;
+}
