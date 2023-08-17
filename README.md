@@ -12,7 +12,7 @@ The "Survival-website" project stands at the intersection of design and web deve
 
 ## Features
 
-- Conversion of CD file to a visually appealing HTML and CSS page.
+- Conversion of XD file to a visually appealing HTML and CSS page.
 
 
 ## Contributing
