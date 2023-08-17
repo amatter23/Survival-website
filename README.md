@@ -4,6 +4,10 @@
 
 The "Survival-website" project stands at the intersection of design and web development. Through the power of HTML and CSS, it brings designs from Adobe XD to life, translating visual mockups into interactive web pages. As designers increasingly use XD for prototyping, this tool bridges the gap, simplifying the conversion process and ensuring fidelity to the original design.
 
+## Live Demo
+
+Check out the live version of the project [here](https://amatter23.github.io/Survival-website/).
+
 ## Installation
 
 1. Clone this repository:
