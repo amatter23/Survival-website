@@ -7,7 +7,7 @@ The "Survival-website" project stands at the intersection of design and web deve
 ## Installation
 
 1. Clone this repository:
-2. 2. Navigate to the directory of the cloned repository.
+2. Navigate to the directory of the cloned repository.
 3. Open the `index` file in your preferred browser to view the webpage.
 
 ## Features
